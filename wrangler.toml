@@ -1,11 +1,71 @@
-name = "cf-worker-ws-dev"
+name = "sg1"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
-# node_compat = true
-workers_dev = true
+
+[[routes]]
+pattern = "id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "dl.cvs.freefiremobile.com.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "ava.game.naver.com.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "df.game.naver.com.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "support.zoom.us.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "quiz.int.vidio.com.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "blog.webex.com.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "zaintest.vuclip.com.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "api.midtrans.com.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "edu.ruangguru.com.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "beta.zoom.us.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "api.zoom.us.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "store.zoom.us.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "zoomgov.socifiles.com.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "access.zoominfo.com.id1.effata.online"
+custom_domain = true
+
+[[routes]]
+pattern = "data.mt.id1.effata.online"
+custom_domain = true
 
 [vars]
-# PROXYIP = "211.230.110.231:50008"
-UUID = "1b6c1745-992e-4aac-8685-266c090e50ea"
-# SOCKS5 = "127.0.0.1:1080"
-# SOCKS5_RELAY = "true"
+PROXYIP = "15.235.162.49"
+UUID = "1d30fa45-9d31-4e81-a646-f8c7dbda0c65"
